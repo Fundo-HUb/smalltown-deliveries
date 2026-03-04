@@ -1,1 +1,22 @@
+body { font-family: 'Plus Jakarta Sans', sans-serif; }
 
+.glass-effect {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.gradient-text {
+    background: linear-gradient(135deg, #22c55e 0%, #16a34a 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(34, 197, 94, 0.15);
+}
+
+/* Add all other animations and hover effects here */
